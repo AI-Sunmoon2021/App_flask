@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.header-box .main-header a {
+    
+}
+
+.header-box {
+    background-color: #f8afc7;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-box__logo {
+    font-size: 1.5rem;
+    margin: 15px 25px;
+    padding: auto 0;
+    color: #ffffff;
+}
+
+.header-box__logo:link,
+.header-box__logo:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_img {
+    height: 25px;
+    margin: 15px 25px;
+}
+
+.main {
+    height: 100%;
+    text-align: center;
+}
+
+.main__explain-box {
+    border-bottom: 1px solid #c4c1bf;
+}
+
+.main__explain-content {
+    margin: 30px 0;
+}
+
+#image-preview {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main__header-content {
+    color: #444444;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.main__explain-content p {
+    color: #444444;
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+.header__link-box-wrapper {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #c4c1bf;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+}
+
+.header__link-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.file_choose {
+    margin-left: 50px;
+}
+
+.answer {
+    color: #000000;
+    font-size: 32px;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    background-color: #c4c1bf;
+    height: 40px;
+    margin: -8px;
+    position: relative;
+}
+
+.footer_img {
+    height: 25px;
+    margin: 15px 25px;
+}
+
+small {
+    margin: 15px 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.submit-btn {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: lightblue;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#navBarSearchForm input[type=text] {
+    width: 430px !important;
+}
